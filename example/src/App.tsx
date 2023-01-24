@@ -4,6 +4,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import { multiply } from 'react-native-layouts';
 
 export default function App() {
+
   const [result, setResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
